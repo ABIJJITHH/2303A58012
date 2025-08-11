@@ -2,11 +2,11 @@
 #include <stdlib.h>
 char getChar(int idx) {
     switch (idx) {
-        case 0: return 'L'; // Library
-        case 1: return 'H'; // Hostel
-        case 2: return 'C'; // Classroom
-        case 3: return 'B'; // Lab
-        case 4: return 'A'; // Admin
+        case 0: return 'L';
+        case 1: return 'H';
+        case 2: return 'C';
+        case 3: return 'B';
+        case 4: return 'A';
         default: return '?';
     }
 }
@@ -84,4 +84,5 @@ int main() {
 
     kruskalAlgorithm(5, 8, edges);
     return 0;
+
 }
